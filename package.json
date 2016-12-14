@@ -1,0 +1,39 @@
+{
+  "name": "sass-replace-webpack-plugin",
+  "version": "1.0.0",
+  "description": "SASS Replace Webpack Plugin",
+  "main": "lib/index.js",
+  "scripts": {
+    "dev": "gulp examples:dev"
+  },
+  "keywords": [
+    "webpack",
+    "sass",
+    "plugin",
+    "replace"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fakundo/sass-replace-webpack-plugin"
+  },
+  "author": "Roman Samoylov (https://github.com/fakundo)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "css-loader": "^0.26.1",
+    "eslint": "^3.11.1",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-util": "^3.0.7",
+    "html-webpack-plugin": "^2.24.1",
+    "run-sequence": "^1.2.2",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^1.0.0"
+  },
+  "peerDependencies": {
+    "webpack": "^1.13.1"
+  }
+}
