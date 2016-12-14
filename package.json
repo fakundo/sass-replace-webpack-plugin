@@ -1,6 +1,6 @@
 {
   "name": "sass-replace-webpack-plugin",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "SASS Replace Webpack Plugin",
   "main": "lib/index.js",
   "scripts": {
