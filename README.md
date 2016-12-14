@@ -19,7 +19,7 @@ plugins: [
   new SassReplaceWebpackPlugin(regexp, replacer);
 ]
 ...
-```
+```js
 
 ### Constructor parameters
 
